@@ -1,0 +1,60 @@
+.buttons {
+    width: 100%;
+    display: flex;
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid $line-color;
+    @media (max-width: 768px) {
+        padding: 16px;
+        border-top: 0;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+}
+
+.button {
+    min-width: 28%;
+    height: 50px;
+    border: 1px solid $grid-item-border-color;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0 20px 0 20px;
+    font-family: $main-font;
+    font-size: 1em;
+    font-weight: 500;
+    transition: 0.4s;
+    @media (max-width: 768px) {
+        font-size: .8em;
+    }
+
+    &--ok {
+        width: 50%;
+    }
+
+    &--save,
+    &--ok {
+        background-color: $btn-save-color;
+        color: $body-background-color;
+    }
+
+    &--save:hover,
+    &--ok:hover {
+        background-color: $body-background-color;
+        color: $attention-link-color;
+    }
+
+    &--unsubscribe {
+        background-color: $body-background-color;
+        margin-left: 10px;
+        color: $attention-link-color;
+        @media (max-width: 768px) {
+            margin-left: 0;
+            margin-top: 16px;
+        }
+    }
+
+    &--unsubscribe:hover {
+        background-color: $btn-save-color;
+        color: $body-background-color;
+    }
+}

@@ -1,24 +1,18 @@
-# regium2
+### Задание:
 
-## Project setup
-```
-npm install
-```
+- PIXEl PERFECT (DONE)
+- Адаптивно сверстать данную страницу (вид мобильной версии представить на свое усмотрение);
+- Предусмотреть изменение прогресс бара (и процентное значение) FUN YOU GET, в зависимости от количества включенных подписок; (DONE)
+- Предусмотреть визуальное выделение включенных подписок, а также изменение статуса Subscrubed/Unsubscribed; (DONE)
+- При нажатии на кнопку "Unsubscribe from all of the above. It’s over" выключить все подписки. (DONE)
+- Страница должна получать данные из JSON файла Subscribe.json. (DONE)
+- При нажатии на кнопки "Save changes" и "Unsubscribe from all of the above. It’s over" страница должна формировать информацию о текущем состоянии подписок и выводить ее в json формате (соответствующему файлу subscribe.json) в консоль браузера. (DONE)
+- выводить попап с разницей между старым и новым значением FUN YOU GET.(DONE)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Будет очень здорово, если Вы:
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Будете использовать CSS-препроцессор; (DONE)
+- Настроите webpack для сборки проекта;
+- НЕ будете использовать Bootstrap, Foundation и проч. (в остальном нет ограничений на использумые инструменты); (DONE)
+- Ваш HTML будет чистым, валидным, кроссбраузерным и семантичным;
+- Позаботитесь об оптимизации загрузки страницы. (DONE)
