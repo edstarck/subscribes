@@ -1,3 +1,9 @@
+### Установка
+
+- clone repo
+- npm install
+- npm run serve
+
 ### Задание:
 
 - PIXEl PERFECT (DONE)
