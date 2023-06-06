@@ -1,5 +1,3 @@
-## [DEMO](https://edstarck.github.io/dist/)
-
 ### Установка
 
 - clone repo
